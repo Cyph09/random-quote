@@ -4,7 +4,7 @@ const quote    = document.querySelector('#text');
 const author   = document.querySelector('#author');
 const newQuote = document.querySelector('#new-quote');
 
-// Event listener for  new quote
+// Event listeners for  new quote
 window.addEventListener('load', displayQuote);
 quoteBox.addEventListener('click',displayQuote);
 
